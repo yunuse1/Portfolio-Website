@@ -7,9 +7,7 @@
     <title>Yunus Emre Çelikkıran | Backend & AI Engineering Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -36,10 +34,9 @@
                 backend architectures.
             </p>
             <div class="social-links">
-                <a href="https://github.com/yunuse1" target="_blank" class="btn btn-primary">GitHub Profile</a>
-                <a href="https://www.linkedin.com/in/yunus-emre-%C3%A7elikk%C4%B1ran-797547169/" target="_blank"
-                    class="btn btn-secondary">LinkedIn Profile</a>
-                <a href="Yunus_Emre_Celikkiran_CV_Final.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+                <a href="https://github.com/yunuse1" target="_blank" rel="noopener noreferrer" class="btn btn-primary">GitHub Profile</a>
+                <a href="https://www.linkedin.com/in/yunus-emre-%C3%A7elikk%C4%B1ran-797547169/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">LinkedIn Profile</a>
+                <a href="Yunus_Emre_Celikkiran_CV_Final.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Download CV</a>
                 <a href="mailto:yunusemrecelikkirann@gmail.com" class="btn btn-accent">Get in Touch</a>
             </div>
         </section>
@@ -55,7 +52,7 @@
                         Engineered a full CRUD backend architecture transitioning from in-memory arrays to SQLite, and
                         finally to Dockerized PostgreSQL with volume persistence and Pydantic validation.
                     </p>
-                    <a href="https://github.com/yunuse1" target="_blank" class="card-link">View Project &rarr;</a>
+                    <a href="https://github.com/yunuse1/FlyRank-CRUD-API" target="_blank" rel="noopener noreferrer" class="card-link">View Project &rarr;</a>
                 </article>
 
                 <article class="card">
@@ -65,7 +62,7 @@
                         Developed a Python-based extraction pipeline converting unstructured PDF documents into clean
                         JSON and relational PostgreSQL records to automate data ingestion workflows.
                     </p>
-                    <a href="https://github.com/yunuse1" target="_blank" class="card-link">View Project &rarr;</a>
+                    <a href="https://github.com/yunuse1/python_pdfparser" target="_blank" rel="noopener noreferrer" class="card-link">View Project &rarr;</a>
                 </article>
 
                 <article class="card">
@@ -75,7 +72,7 @@
                         Contributed to production fintech solutions (IstePay &amp; Bitronit) by building RESTful
                         endpoints, refining response payloads, and enforcing strict HTTP status code handlings.
                     </p>
-                    <a href="https://github.com/yunuse1" target="_blank" class="card-link">View Project &rarr;</a>
+                    <span class="card-link card-link-disabled">Private production work</span>
                 </article>
 
             </div>
@@ -125,45 +122,29 @@
                     </p>
 
                     <div style="display: flex; flex-direction: column; gap: 0.35rem;">
-                        <label for="name"
-                            style="color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-mono);">Name</label>
-                        <input type="text" id="name" name="name" required placeholder="Your Name"
-                            style="padding: 0.75rem; border-radius: var(--radius); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main); font-family: inherit; font-size: 0.95rem; outline: none;" />
+                        <label for="name" style="color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-mono);">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name" style="padding: 0.75rem; border-radius: var(--radius); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main); font-family: inherit; font-size: 0.95rem; outline: none;" />
                     </div>
 
                     <div style="display: flex; flex-direction: column; gap: 0.35rem;">
-                        <label for="email"
-                            style="color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-mono);">Email</label>
-                        <input type="email" id="email" name="email" required placeholder="your.email@example.com"
-                            style="padding: 0.75rem; border-radius: var(--radius); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main); font-family: inherit; font-size: 0.95rem; outline: none;" />
+                        <label for="email" style="color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-mono);">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com" style="padding: 0.75rem; border-radius: var(--radius); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main); font-family: inherit; font-size: 0.95rem; outline: none;" />
                     </div>
 
                     <div style="display: flex; flex-direction: column; gap: 0.35rem;">
-                        <label for="message"
-                            style="color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-mono);">Message</label>
-                        <textarea id="message" name="message" rows="4" required
-                            placeholder="Describe your inquiry or backend requirements..."
-                            style="padding: 0.75rem; border-radius: var(--radius); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main); font-family: inherit; font-size: 0.95rem; outline: none; resize: vertical;"></textarea>
+                        <label for="message" style="color: var(--text-muted); font-size: 0.85rem; font-family: var(--font-mono);">Message</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Describe your inquiry or backend requirements..." style="padding: 0.75rem; border-radius: var(--radius); border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main); font-family: inherit; font-size: 0.95rem; outline: none; resize: vertical;"></textarea>
                     </div>
 
                     <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin-top: 0.5rem;">
-                        <button type="submit" id="submit-btn" class="btn btn-primary"
-                            style="cursor: pointer; border: none;">
-                            Send Message →
-                        </button>
-                        <a href="https://linkedin.com/in/yunus-emre-celikkiran" target="_blank"
-                            rel="noopener noreferrer" class="btn btn-secondary">
-                            Connect on LinkedIn
-                        </a>
+                        <button type="submit" id="submit-btn" class="btn btn-primary" style="cursor: pointer; border: none;">Send Message →</button>
+                        <a href="https://linkedin.com/in/yunus-emre-celikkiran" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Connect on LinkedIn</a>
                     </div>
 
-                    <div id="form-status"
-                        style="display: none; padding: 0.75rem 1rem; border-radius: var(--radius); font-size: 0.9rem; font-family: var(--font-mono); margin-top: 0.5rem;">
-                    </div>
+                    <div id="form-status" style="display: none; padding: 0.75rem 1rem; border-radius: var(--radius); font-size: 0.9rem; font-family: var(--font-mono); margin-top: 0.5rem;"></div>
                 </form>
 
-                <p class="cta-meta" style="margin-top: 1.5rem;">Open for Backend Engineering & AI Systems Roles |
-                    Response within 24h</p>
+                <p class="cta-meta" style="margin-top: 1.5rem;">Open for Backend Engineering & AI Systems Roles | Response within 24h</p>
             </div>
         </section>
 
